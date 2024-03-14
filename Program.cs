@@ -6,6 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+
             OptionsClass opt = new OptionsClass();
             Console.WriteLine("Enter number of Students:");
             opt.studentCnt = Convert.ToInt32(Console.ReadLine());

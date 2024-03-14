@@ -6,6 +6,9 @@ namespace ConsoleApp1
 {
     class StudentInfoClass : StudentsClass
     {
+        //inherit halin sa student class ang function na add students ang variables from studentClass magamit ko anywhere hangtod options since connected sila
+        //kag gin inherit ko sila tanan so connected sila
+
         private string[] headers = { "Science", "English", "Math", "Average" };
        public string[] studentGrades = { };
         private double sumGrades = 0;
